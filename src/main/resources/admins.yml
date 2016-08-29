@@ -8,7 +8,7 @@ madgeek1450:
   - 1.2.3.4
   - 8.8.8.8
   last_login: Sat, 2 Apr 2016 16:08:39 +0200
-  login_message: the &4Co-Founder&b and &6Master-ass-kicker&b.
+  login_message: the &4Co-Founder&b of TotalFreedom and &6Master-ass-kicker&b.
 markbyron:
   username: markbyron
   active: true
@@ -16,7 +16,7 @@ markbyron:
   ips:
   - 8.8.4.4
   last_login: Sat, 2 Apr 2016 16:08:39 +0200
-  login_message: the &dOwner&b.
+  login_message: the &dOwner&b of TotalFreedom.
 bearzrawesome:
   username: BearzRAwesome
   active: true
@@ -55,4 +55,4 @@ prozza:
   ips:
   - 127.0.0.1
   last_login: Sat, 2 Apr 2016 16:08:39 +0200
-  login_message: the &5Lead Developer&b!
+  login_message: the &5Lead Developer&b of TotalFreedom!
