@@ -268,9 +268,9 @@ public class ChatManager extends FreedomService
             player.chat("Hey Guys! >:)");
         }
         
-        if (name.equals("Trian"))
+        if (name.equals("NickWilde"))
         {
-            FUtil.bcastMsg(ChatColor.translateAlternateColorCodes('&', "&cThunderFreedom - Welcome back &8[&9Owner&8]&3Trian&c!"));
+            FUtil.bcastMsg(ChatColor.translateAlternateColorCodes('&', "&cThunderFreedom - Welcome back &8[&9Owner&8]&3NickWilde&c!"));
         }
         
         if (name.equals("BearzRAwesome"))
