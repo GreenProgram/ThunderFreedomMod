@@ -47,9 +47,9 @@ public class Command_thunderfreedommod extends FreedomCommand
         msg(ChatColor.translateAlternateColorCodes('&', "           &7&m----&9Thunder&8Freedom&9Mod&7&m----&r"));
         msg(ChatColor.translateAlternateColorCodes('&', "&9Thunder&8Freedom&9Mod&7 was made for &9Thunder&8Freedom&7!"));
         msg(ChatColor.translateAlternateColorCodes('&', "&9Thunder&8Freedom&9Mod&7 is currently in version: 1.0"));
-        msg(ChatColor.translateAlternateColorCodes('&', "&9Thunder&8Freedom&9Mod&7 was made by &9heroguy42."));
+        msg(ChatColor.translateAlternateColorCodes('&', "&9Thunder&8Freedom&9Mod&7 was made by &9heroguy42&7."));
         msg(ChatColor.translateAlternateColorCodes('&', "&7Note: &8TRFM was forked from &9TotalFreedomMod&7."));
-        msg(ChatColor.translateAlternateColorCodes('&', "&7Running on: &9" + ConfigEntry.SERVER_NAME.getString() + "&9."));
+        msg(ChatColor.translateAlternateColorCodes('&', "&7Running on: &9" + ConfigEntry.SERVER_NAME.getString() + "&7."));
         msg(ChatColor.translateAlternateColorCodes('&', "           &7&m----&9Thunder&8Freedom&9Mod&7&m----&r"));
 
         return true;
