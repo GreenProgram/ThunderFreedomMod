@@ -17,7 +17,7 @@ public class Command_getfucked extends FreedomCommand
     @Override
     public boolean run(CommandSender sender, Player playerSender, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {   
-        if (args.length < 1)
+        if (args.length < 0)
         {
             return false;
         }
@@ -36,9 +36,9 @@ public class Command_getfucked extends FreedomCommand
             return true;
         }
         
-        FUtil.adminAction(sender.getName(), "Fucking " + player.getName(), true);
+        FUtil.bcastMsg(ChatColor.RED + sender.getName() + "- Fucking " + player.getName());
         
-        Bukkit.dispatchCommand(sender, "smite " + player.getName());
+        Bukkit.dispatchCommand(sender, "smite " + player.getName() + reason);
         Bukkit.dispatchCommand(sender, "stfu " + player.getName());
         Bukkit.dispatchCommand(sender, "blockcmd " + player.getName());
         
@@ -46,3 +46,4 @@ public class Command_getfucked extends FreedomCommand
     }
 
 }
+
