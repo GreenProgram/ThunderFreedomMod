@@ -6,7 +6,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-@CommandPermissions(level = Rank.SUPER_ADMIN, source = SourceType.BOTH)
+@CommandPermissions(level = Rank.OP, source = SourceType.BOTH)
 @CommandParameters(
         description = "Clear your chat.",
         usage = "/<command>",
@@ -21,7 +21,7 @@ public class Command_clearmychat extends FreedomCommand
         {
             sender.sendMessage("");
         }
-        sender.sendMessage(ChatColor.RED + "ThunderFreedom - Clearing your chat");
+        sender.sendMessage(ChatColor.RED + "You - Clearing Your Chat");
         return true;
     }
     
