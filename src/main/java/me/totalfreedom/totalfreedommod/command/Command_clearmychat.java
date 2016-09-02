@@ -21,7 +21,7 @@ public class Command_clearmychat extends FreedomCommand
         {
             sender.sendMessage("");
         }
-        sender.sendMessage(ChatColor.RED + "You - Clearing Your Chat");
+        sender.sendMessage(ChatColor.RED + "Clearing your chat!");
         return true;
     }
     
