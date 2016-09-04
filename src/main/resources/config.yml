@@ -128,6 +128,8 @@ blocked_commands:
   # Superadmin commands
   - 's:b:/kick:_'
   - 's:b:/co:_'
+  - 's:b:/core:_'
+  - 's:b:/coreprotect:_'
   - 's:b:/socialspy:_'
   - 's:b:/replaceitem:_'
   - 's:b:/kill:_'
